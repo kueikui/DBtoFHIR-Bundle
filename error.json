@@ -1,0 +1,13 @@
+{
+  "resourceType": "OperationOutcome",
+  "issue": [
+    {
+      "severity": "error",
+      "code": "invalid",
+      "diagnostics": "Encounter Enco008 start_date > end_date",
+      "expression": [
+        "Encounter/Enco008/period"
+      ]
+    }
+  ]
+}
